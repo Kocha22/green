@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    width: 100%;
+}
+.logo__title{
+    margin: 10px 30px;
+}
+.wrapper{
+    margin: 0;
+    padding: 0;
+}
